@@ -52,28 +52,28 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Home',
-    //caption: '',
-    icon: 'mdi-home',
+    title: 'Gli Sposi',
+    caption: 'Su di noi',
+    icon: 'mdi-ring',
     link: '/'
   },
   {
-    title: 'Gli Sposi',
-    //caption: 'github.com/quasarframework',
-    icon: 'mdi-ring',
-    link: '/glisposi'
+    title: 'Il matrimonio in a nutshell',
+    caption: 'Come arrivare e dettagli',
+    icon: 'mdi-church',
+    link: '/ilmatrimonio'
+  },
+  {
+    title: 'Put the groom on the plane!',
+    caption: 'didascalia? Regali e pensieri?',
+    icon: 'mdi-gift-open',
+    link: '/listanozze'
   },
   {
     title: 'Alloggi e Attività',
     //caption: 'chat.quasar.dev',
     icon: 'mdi-bed',
     link: '/alloggi'
-  },
-  {
-    title: 'Come arrivare',
-    //caption: 'chat.quasar.dev',
-    icon: 'mdi-airport',
-    link: '/mappa'
   },
 ];
 

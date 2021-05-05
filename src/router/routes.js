@@ -3,28 +3,28 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/Index.vue')}
+      {path: '', component: () => import('pages/SuDiNoi.vue')}
     ]
   },
   {
-    path: '/glisposi',
+    path: '/ilmatrimonio',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/SuDiNoi.vue')}
+      {name: 'ilmatrimonio', path: '', component: () => import('pages/ilmatrimonio.vue')}
     ]
   },
   {
     path: '/listanozze',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/Regali.vue')}
+      {name: 'listanozze', path: '', component: () => import('pages/Regali.vue')}
     ]
   },
   {
     path: '/mappa',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/ComeArrivare.vue')}
+      {name: 'mappa', path: '', component: () => import('pages/ComeArrivare.vue')}
     ]
   },
   {

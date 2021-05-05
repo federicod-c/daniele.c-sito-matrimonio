@@ -36,7 +36,7 @@
     </q-card-section>
 
     <q-card-actions class="justify-around">
-      <q-btn flat icon="map" label="Indicazioni" type="a" :href="link" target="_blank"/>
+      <q-btn flat icon="map" label="Apri indicazioni su Google Maps" type="a" :href="link" target="_blank"/>
     </q-card-actions>
   </q-card>
 </template>
