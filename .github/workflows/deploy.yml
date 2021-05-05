@@ -27,7 +27,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-          BASE_BRANCH: master
-          BRANCH: gh-pages
-          FOLDER: dist/spa
+          token: ${{ secrets.PAT }}
+          branch: gh-pages
+          folder: dist/spa
