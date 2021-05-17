@@ -1,6 +1,5 @@
 <template>
   <q-carousel
-    autoplay="2500"
     swipeable
     animated
     v-model="value"
@@ -8,12 +7,21 @@
     infinite
     height="550px"
   >
-    <q-carousel-slide :name="1" img-src="foto/tiny/1.jpg" style="background-position: 50% 65%"/>
-    <q-carousel-slide :name="2" img-src="foto/tiny/2.jpg" style="background-position: 50% 65%"/>
-    <q-carousel-slide :name="3" img-src="foto/tiny/3.jpg"/>
-<!--    <q-carousel-slide :name="4" img-src="foto/tiny/4.jpg" style="background-position: 50% 65%"/>-->
-    <q-carousel-slide :name="5" img-src="foto/tiny/5.jpg" style="background-position: 50% 65%"/>
-    <q-carousel-slide :name="6" img-src="foto/tiny/6.jpg" style="background-position: 50% 60%"/>
+    <q-carousel-slide :name="1" img-src="foto/tiny/1.jpg" class="c-img" style="background-image: none">
+      <q-img contain height="534px" src="foto/tiny/1.jpg"/>
+    </q-carousel-slide>
+    <q-carousel-slide :name="2" img-src="foto/tiny/2.jpg" class="c-img" style="background-image: none">
+      <q-img contain height="534px" src="foto/tiny/2.jpg"/>
+    </q-carousel-slide>
+    <q-carousel-slide :name="3" img-src="foto/tiny/3.jpg" class="c-img" style="background-image: none">
+      <q-img contain height="534px" src="foto/tiny/3.jpg"/>
+    </q-carousel-slide>
+    <q-carousel-slide :name="5" img-src="foto/tiny/5.jpg" class="c-img" style="background-image: none">
+      <q-img contain height="534px" src="foto/tiny/5.jpg"/>
+    </q-carousel-slide>
+    <q-carousel-slide :name="6" img-src="foto/tiny/6.jpg" class="c-img" style="background-image: none">
+      <q-img contain height="534px" src="foto/tiny/6.jpg"/>
+    </q-carousel-slide>
 
   </q-carousel>
 </template>
@@ -32,3 +40,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-img {
+  height: 550px;
+  object-fit: contain;
+}
+
+</style>

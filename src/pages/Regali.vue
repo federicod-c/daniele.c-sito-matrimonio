@@ -1,28 +1,59 @@
 <template>
-  <q-page class="row justify-center q-pa-md">
-    <q-card class="col-12 col-lg-10">
+  <q-page class="row justify-center">
+    <q-card class="col-10 ">
+      <q-img src="mappa.png" style="height: 200px" :ratio="16/9" :contain="$q.screen.lt.md"/>
       <q-card-section class="q-pt-md">
         <p class="text-body1 col-8">
-          Avremmo potuto chiedervi di districarvi tra le porcellane di Sèvres e Limoges, o di interrogarvi se fosse
-          meglio il folletto con la nuova impugnatura ergonomica o Rumba, il robot catturapolvere.
+          Avremmo potuto chiedervi di districarvi tra le porcellane di Sèvres e Limoges, o di interrogarvi se fosse meglio il folletto con la nuova impugnatura ergonomica o Roomba, il robot cattura-polvere.
           <br/>
           <br/>
-          E invece no. In cima alla nostra lista dei desideri ci sono viaggi avventurosi alla scoperta di mete lontane,
-          tutte da raggiungere, per il piacere dello sposo poco amante del volo, rigorosamente in aereo!
+          E invece no! In cima alla nostra lista dei desideri ci sono viaggi avventurosi alla scoperta di mete lontane, tutte da raggiungere, per il piacere dello sposo poco amante del volo, rigorosamente in aereo!
+
           <br/>
           <br/>
-          Perciò, se volete aiutarci a realizzare il nostro sogno ma, soprattutto, se volete contribuire all’impresa del
-          nostro prode argonauta che, per la prima volta, si cimenterà in un volo transoceanico, qui di seguito trovate
-          tutti i dettagli.
+          Perciò, se volete aiutarci a realizzare il nostro sogno ma, soprattutto, se volete contribuire all’impresa del nostro prode argonauta che, per la prima volta, si cimenterà in un volo transoceanico, qui di seguito trovate tutti i
+          dettagli.
           <br/>
           <br/>
-          Put the groom on the plane!
+          Fai volare lo sposo!
         </p>
+
+        <div class="row">
+          <q-img src="gif_2.gif" style="width: 70%; margin: auto; text-align: center"/>
+        </div>
+
       </q-card-section>
       <q-card-actions align="center">
-        <q-btn flat icon="mdi-airplane-takeoff" icon-right="mdi-airplane-landing" size="xl" label="CLICCAMI"/>
+        <q-btn flat icon="mdi-airplane-takeoff" icon-right="mdi-airplane-landing" size="xl" label="Clicca qui" @click="diban = true"/>
       </q-card-actions>
     </q-card>
+
+
+    <q-dialog v-model="diban">
+      <q-card style="width: 70vw">
+        <q-card-section>
+          <div class="text-h6">Dettagli</div>
+        </q-card-section>
+
+        <q-card-section class="q-pt-none">
+          <p class="text-center">
+            Conto corrente intestato a: Ilaria Stronati
+            <br/>
+            <br/>
+            IBAN: IT95S 02008 32974 023266425198
+            <br/>
+            Presso Banca Unicredit
+          </p>
+
+
+        </q-card-section>
+
+        <q-card-actions align="right">
+          <q-btn flat label="OK" color="primary" v-close-popup/>
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
+
   </q-page>
 </template>
 
@@ -31,7 +62,9 @@
 export default {
   name: "Regali",
   data() {
-    return {}
+    return {
+      diban: false
+    }
   }
 }
 </script>

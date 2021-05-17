@@ -1,37 +1,35 @@
 <template>
-  <q-page class="row justify-center q-pa-md q-gutter-lg">
-    <q-card class="col-12 col-lg-10">
-      <q-img
-        src="abbazia.jpg"
-        :ratio="16/9"
-        height="300px"
-        position="50% 60%"
-      />
-
-      <q-card-section >
-        <div class="text-overline">Dove</div>
-        <p>La cerimonia si svolgerà presso l’Abbazia di San Firmano, Contrada S. Firmano, 12, 62010,
-          Montelupone (MC); successivamente gli sposi saranno lieti di salutarvi presso Villa Buonaccorsi, Contrada
-          Giardino, 62018 Porto Potenza Picena MC
+  <q-page class="row justify-around">
+    <q-card class="col-10 q-pt-lg">
+      <q-card-section>
+        <p class="text-h5 text-center col-12">
+          Quando: <br/>17 luglio 2021, ore 17.30
+          <br/>
+          <br/>
+          Dove:
         </p>
-        <div class="text-overline">Quando</div>
-        <p>17 luglio 2021, ore 17.30</p>
+
       </q-card-section>
-
+      <q-card-section class="row justify-around" style="margin-top: -20px">
+        <abbazia/>
+        <villa/>
+      </q-card-section>
+      <q-card-actions class="justify-around">
+        <q-btn flat icon="map" label="Clicca qui per il percorso" type="a" :href="link" target="_blank"/>
+      </q-card-actions>
     </q-card>
-
-    <Mappa class="col-12 col-lg-10"/>
-    <div class="col-12"/>
   </q-page>
 </template>
 
 <script>
-import Mappa from "components/Mappa";
+import Abbazia from "components/abbazia";
+import Villa from "components/villa"
 
 export default {
   name: "ComeArrivare",
   components: {
-    Mappa
+    Abbazia,
+    Villa
   }
 }
 </script>
