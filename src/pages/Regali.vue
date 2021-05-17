@@ -3,7 +3,7 @@
     <q-card class="col-10 ">
       <q-img src="mappa.png" style="height: 200px" :ratio="16/9" :contain="$q.screen.lt.md"/>
       <q-card-section class="q-pt-md">
-        <p class="text-body1 col-8">
+        <p class="col-8">
           Avremmo potuto chiedervi di districarvi tra le porcellane di Sèvres e Limoges, o di interrogarvi se fosse meglio il folletto con la nuova impugnatura ergonomica o Roomba, il robot cattura-polvere.
           <br/>
           <br/>
