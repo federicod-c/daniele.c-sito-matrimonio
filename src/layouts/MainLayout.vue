@@ -3,7 +3,6 @@
     <q-header elevated>
       <q-toolbar>
         <q-btn
-          class="lt-md"
           flat
           dense
           round
@@ -22,7 +21,6 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
       content-class="bg-grey-1"
     >

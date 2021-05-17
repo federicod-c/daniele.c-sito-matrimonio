@@ -1,5 +1,5 @@
 <template>
-  <q-card class="col-md-5 col-xs-12" flat bordered>
+  <q-card class="col-md-5 col-xs-12">
     <q-img
       src="villa.jpg"
       :ratio="16/9"
@@ -9,7 +9,7 @@
 
     <q-card-section>
       <div class="text-overline">Villa Buonaccorsi — Ricevimento</div>
-      <p>Dopo la celebrazione della Messa, seguirà il ricevimento presso Villa Buonaccorsi, Contrada Giardino, 62018 Porto Potenza Picena (MC)
+      <p style="color: white">Dopo la celebrazione della Messa, seguirà il ricevimento presso Villa Buonaccorsi, Contrada Giardino, 62018 Porto Potenza Picena (MC)
       </p>
     </q-card-section>
 

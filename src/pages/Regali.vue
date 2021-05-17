@@ -1,6 +1,6 @@
 <template>
   <q-page class="row justify-center">
-    <q-card class="col-10 ">
+    <q-card class="col-10 q-pb-md">
       <q-img src="mappa.png" style="height: 200px" :ratio="16/9" :contain="$q.screen.lt.md"/>
       <q-card-section class="q-pt-md">
         <p class="col-8">
@@ -18,13 +18,13 @@
           Fai volare lo sposo!
         </p>
 
-        <div class="row">
-          <q-img src="gif_2.gif" style="width: 70%; margin: auto; text-align: center"/>
+        <div class="row justify-center">
+          <q-img src="gif_2.gif" class="col-xs-11 col-lg-4 col-md-4"/>
         </div>
 
       </q-card-section>
       <q-card-actions align="center">
-        <q-btn flat icon="mdi-airplane-takeoff" icon-right="mdi-airplane-landing" size="xl" label="Clicca qui" @click="diban = true"/>
+        <q-btn icon="mdi-airplane-takeoff" icon-right="mdi-airplane-landing" size="xl" label="Clicca qui" @click="diban = true"/>
       </q-card-actions>
     </q-card>
 
@@ -49,7 +49,7 @@
         </q-card-section>
 
         <q-card-actions align="right">
-          <q-btn flat label="OK" color="primary" v-close-popup/>
+          <q-btn flat label="OK" v-close-popup/>
         </q-card-actions>
       </q-card>
     </q-dialog>

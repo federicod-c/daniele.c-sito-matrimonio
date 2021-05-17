@@ -15,7 +15,7 @@
         <villa/>
       </q-card-section>
       <q-card-actions class="justify-around">
-        <q-btn flat icon="map" label="Clicca qui per il percorso" type="a" :href="link" target="_blank"/>
+        <q-btn size="lg" icon="map" label="Clicca qui per il percorso" type="a" :href="link" target="_blank"/>
       </q-card-actions>
     </q-card>
   </q-page>
