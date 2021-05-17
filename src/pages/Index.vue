@@ -19,7 +19,7 @@
           <br/>
           Però sappiamo anche che questo è il modo più efficace per aiutare tutti i nostri invitati a partecipare e godersi a pieno questo giorno tanto importante per noi.
           <br/>
-          Perciò, se, ad esempio, non sapete ancora come arrivare al luogo del matrimonio (<router-link to="mappa">Come arrivare</router-link>),
+          Perciò, se, ad esempio, non sapete ancora come arrivare al luogo del matrimonio (<router-link to="rsvp">Come arrivare</router-link>),
           o vorreste farci un regalo ma non avete ancora avuto
           l’ispirazione (<router-link to="listanozze">Fai volare lo sposo!</router-link>), questo è il
           sito che fa proprio al caso vostro.
