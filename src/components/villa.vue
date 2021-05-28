@@ -9,7 +9,7 @@
 
     <q-card-section>
       <div class="text-overline">Villa Buonaccorsi — Ricevimento</div>
-      <p style="color: white">Dopo la celebrazione della Messa, seguirà il ricevimento presso Villa Buonaccorsi, Contrada Giardino, 62018 Porto Potenza Picena (MC)
+      <p>Dopo la celebrazione della Messa, seguirà il ricevimento presso Villa Buonaccorsi, Contrada Giardino, 62018 Porto Potenza Picena (MC)
       </p>
     </q-card-section>
 

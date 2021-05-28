@@ -3,35 +3,35 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/Index.vue')}
-    ]
-  },
-  {
-    path: '/ilmatrimonio',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {name: 'ilmatrimonio', path: '', component: () => import('pages/ilmatrimonio.vue')}
+      {name:'Home', path: '', component: () => import('pages/Index.vue')}
     ]
   },
   {
     path: '/listanozze',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {name: 'listanozze', path: '', component: () => import('pages/Regali.vue')}
+      {name: 'fai-volare-lo-sposo', path: '', component: () => import('pages/Regali.vue')}
     ]
   },
   {
     path: '/rsvp',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {name: 'mappa', path: '', component: () => import('pages/ComeArrivare.vue')}
+      {name: 'dove-e-quando', path: '', component: () => import('pages/ComeArrivare.vue')}
     ]
   },
   {
     path: '/alloggi',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      {path: '', component: () => import('pages/AlloggiEAttivita.vue')}
+      {name:'alloggi', path: '', component: () => import('pages/AlloggiEAttivita.vue')}
+    ]
+  },
+  {
+    path: '/luoghi',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {name:'luoghi-di-interesse', path: '', component: () => import('pages/Luoghi.vue')}
     ]
   },
 

@@ -1,10 +1,11 @@
 <template>
-  <q-page class="q-pa-md">
-    <carosello2/>
+  <q-page class="">
+      <carosello2 class="col-12"/>
 
-    <q-card class="col-10 q-pt-lg">
+<div class="row justify-center">
+    <q-card class="col-md-6 col-xs-12 q-pt-lg" flat>
       <q-card-section class="q-pt-md">
-        <p class="">
+        <p>
           Se siete in cerca di un sito per il matrimonio in cui scorrono foto degli sposi belli e abbronzati mentre si scambiano sguardi intensi al tramonto, in cui i due innamorati vi rendono partecipi di tutti i preparativi - dalla
           scelta
           del confetto in pregiatissimo cacao delle sponde del fiume Ulùa, alle tovaglie in seta prodotta dai bachi di Matsugaoka – oppure postano un loro identikit in cui sentono l’impellente esigenza di condividere con voi l’ascendente
@@ -41,7 +42,7 @@
         <p class="text-right">Daniele e Ilaria</p>
       </q-card-section>
     </q-card>
-
+</div>
   </q-page>
 </template>
 

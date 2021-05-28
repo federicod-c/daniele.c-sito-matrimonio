@@ -9,7 +9,7 @@
 
     <q-card-section>
       <div class="text-overline">Abbazia di San Firmano — Cerimonia</div>
-      <p style="color: black">La celebrazione della Messa si terrà presso l’Abbazia di San Firmano
+      <p>La celebrazione della Messa si terrà presso l’Abbazia di San Firmano
         Contrada S. Firmano 12, 62010, Montelupone (MC)
       </p>
     </q-card-section>

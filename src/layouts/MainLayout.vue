@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-grey">
       <q-toolbar>
         <q-btn
           flat
@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Ilaria e Daniele
+          {{ titoletto }}
         </q-toolbar-title>
 
         <div></div>
@@ -40,7 +40,7 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view />
+      <router-view/>
     </q-page-container>
   </q-layout>
 </template>
@@ -74,18 +74,28 @@ const linksData = [
   },
   {
     title: 'Luoghi di interesse',
-    icon: 'mdi-bed',
+    icon: 'travel_explore',
     link: '/luoghi'
   },
 ];
 
 export default {
   name: 'MainLayout',
-  components: { EssentialLink },
-  data () {
+  components: {EssentialLink},
+  data() {
     return {
       leftDrawerOpen: false,
       essentialLinks: linksData
+    }
+  },
+
+  computed: {
+    titoletto() {
+      let route = this.$route.name.split('-').join(' ')
+      console.debug(route)
+      route = route.charAt(0).toUpperCase() + route.slice(1);
+      return route
+
     }
   }
 }

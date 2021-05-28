@@ -1,6 +1,6 @@
 <template>
   <q-page class="row justify-around">
-    <q-card class="col-10 q-pt-lg">
+    <q-card class="col-10 q-pt-lg" flat>
       <q-card-section>
         <p class="text-h5 text-center col-12">
           Quando: <br/>17 luglio 2021, ore 17.30
@@ -33,7 +33,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

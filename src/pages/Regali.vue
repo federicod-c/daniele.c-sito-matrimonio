@@ -1,7 +1,8 @@
 <template>
   <q-page class="row justify-center">
-    <q-card class="col-10 q-pb-md">
-      <q-img src="mappa.png" style="height: 200px" :ratio="16/9" :contain="$q.screen.lt.md"/>
+    <q-img src="mappa.png" style="height: 200px; margin-top: 10px;" :ratio="16/9" :contain="$q.screen.lt.md"/>
+    <q-card class="col-md-6 col-xs-12 q-pb-md" flat>
+
       <q-card-section class="q-pt-md">
         <p class="col-8">
           Avremmo potuto chiedervi di districarvi tra le porcellane di Sèvres e Limoges, o di interrogarvi se fosse meglio il folletto con la nuova impugnatura ergonomica o Roomba, il robot cattura-polvere.
@@ -19,12 +20,12 @@
         </p>
 
         <div class="row justify-center">
-          <q-img src="gif_2.gif" class="col-xs-11 col-lg-4 col-md-4"/>
+          <q-img src="gif_2.gif" class="col-xs-11 col-lg-5 col-md-5"/>
         </div>
 
       </q-card-section>
       <q-card-actions align="center">
-        <q-btn icon="mdi-airplane-takeoff" icon-right="mdi-airplane-landing" size="xl" label="Clicca qui" @click="diban = true"/>
+        <q-btn icon="mdi-airplane-takeoff" icon-right="mdi-gift-open" size="xl" label="Clicca qui" @click="diban = true"/>
       </q-card-actions>
     </q-card>
 
@@ -36,7 +37,7 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <p class="text-center">
+          <p class="text-center text-h6">
             Conto corrente intestato a: Ilaria Stronati
             <br/>
             <br/>
