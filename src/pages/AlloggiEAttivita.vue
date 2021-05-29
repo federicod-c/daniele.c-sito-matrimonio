@@ -1,14 +1,14 @@
 <template>
   <q-page class="row justify-around">
-    <q-card class="col-md-6 col-xs-12 q-pt-lg" flat>
-      <q-card-section>
-        <p class="">
-          Ecco alcune soluzioni per chi arriva da lontano ed è alla ricerca di
-          un luogo dove soggiornare. Le strutture di seguito indicate vi hanno
-          dedicato una tariffa speciale in quanto nostri invitati.
-        </p>
-      </q-card-section>
-
+    <div class="col-md-6 col-xs-12 q-mb-lg q-mt-lg">
+      <p>
+        Ecco alcune soluzioni per chi arriva da lontano ed è alla ricerca di
+        un luogo dove soggiornare. Le strutture di seguito indicate vi hanno
+        dedicato una tariffa speciale in quanto nostri invitati.
+      </p>
+    </div>
+    <div class="flex-break"/>
+    <q-card class="col-md-6 col-xs-12 q-mb-lg">
       <q-card-section>
         <p>
           Per chi volesse visitare la città natale della sposa e vantarsi di
@@ -30,12 +30,15 @@
         <q-img src="https://media.tenor.com/images/511b4f6334317b3d0e820f78f60aa4a9/tenor.gif" :ratio="4/3" style="width: 150px; margin-top: 5px;margin-left: auto; margin-right: auto; text-align: center; display: block;"/>
 
       </q-card-section>
+    </q-card>
+    <div class="flex-break"/>
 
+    <q-card class="col-md-6 col-xs-12 q-mb-lg">
       <q-card-section>
         <p>
           Per chi sa già che non andrà troppo lontano dopo la festa, a furia di ancheggiare sulle note di tormentoni estivi e di trenini improvvisati:
         </p>
-        <q-img src="foto/alloggi/uliveto.jpg" :ratio="4/3">
+        <q-img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/68/dd/d6/l-antico-uliveto.jpg" :ratio="4/3">
           <div class="absolute-bottom text-subtitle2 text-center">
             <p>
               L’Antico Uliveto
@@ -50,8 +53,10 @@
         <q-img src="https://67.media.tumblr.com/tumblr_ldysh5OeiS1qeno54o1_500.gif" :ratio="4/3" style="width: 150px; margin-top: 5px;margin-left: auto; margin-right: auto; text-align: center; display: block;"/>
 
       </q-card-section>
+    </q-card>
+    <div class="flex-break"/>
 
-
+    <q-card class="col-md-6 col-xs-12 q-mb-lg">
       <q-card-section>
         <p>
           Per chi gli inguaribili centristi, amanti dei compromessi e delle soluzioni a metà strada:
@@ -71,8 +76,6 @@
 
 
       </q-card-section>
-
-
     </q-card>
 
   </q-page>

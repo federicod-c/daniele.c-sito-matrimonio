@@ -13,6 +13,10 @@
         Contrada S. Firmano 12, 62010, Montelupone (MC)
       </p>
     </q-card-section>
+
+    <q-card-actions align="center">
+      <q-btn icon="map" label="Clicca qui per il percorso" type="a" :href="link" target="_blank"/>
+    </q-card-actions>
   </q-card>
 </template>
 
@@ -20,7 +24,9 @@
 export default {
   // name: 'ComponentName',
   data() {
-    return {}
+    return {
+      link: 'https://www.google.com/maps/dir/?api=1&destination=Abbazia+di+San+Firmano,+Contrada+S.+Firmano,+12,+62010+Montelupone+MC'
+    }
   }
 }
 </script>

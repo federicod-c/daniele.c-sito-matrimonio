@@ -26,7 +26,7 @@
         <p>
           Portonovo (AN), a chi volesse fare un po’ di mare, suggeriamo di visitare la bellissima spiaggia di Mezzavalle, probabilmente la più famosa di tutto il Conero. Vi consigliamo, tuttavia, di portarvi qualcosa al sacco perché qui non ci sono lidi ma soltanto un piccolo chiosco.
         </p>
-        <q-img src="foto/luoghi/portonovo.jpg" :ratio="4/3">
+        <q-img src="https://media-cdn.tripadvisor.com/media/photo-s/06/98/f5/7a/spiaggia-di-mezzavalle.jpg" :ratio="4/3">
           <div class="absolute-bottom text-subtitle2 text-center">
 
           </div>
