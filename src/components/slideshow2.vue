@@ -9,36 +9,36 @@
   >
     <q-carousel-slide :name="1" img-src="foto/tiny/1.jpg" class="c-img">
       <div class="absolute-center custom-caption">
-        <div class="text-h2">{{ h1 }}</div>
-        <div class="text-h4 text-italic">{{ h2 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h2'">{{ h1 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h4'" style="font-style: italic">{{ h2 }}</div>
       </div>
     </q-carousel-slide>
 
     <q-carousel-slide :name="2" img-src="foto/tiny/2.jpg" class="c-img">
       <div class="absolute-center custom-caption">
-        <div class="text-h2">{{ h1 }}</div>
-        <div class="text-h4 text-italic">{{ h2 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h2'">{{ h1 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h4'" style="font-style: italic">{{ h2 }}</div>
       </div>
     </q-carousel-slide>
 
     <q-carousel-slide :name="3" img-src="foto/tiny/3.jpg" class="c-img">
       <div class="absolute-center custom-caption">
-        <div class="text-h2">{{ h1 }}</div>
-        <div class="text-h4 text-italic">{{ h2 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h2'">{{ h1 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h4'" style="font-style: italic">{{ h2 }}</div>
       </div>
     </q-carousel-slide>
 
     <q-carousel-slide :name="5" img-src="foto/tiny/5.jpg" class="c-img">
       <div class="absolute-center custom-caption">
-        <div class="text-h2">{{ h1 }}</div>
-        <div class="text-h4 text-italic">{{ h2 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h2'">{{ h1 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h4'" style="font-style: italic">{{ h2 }}</div>
       </div>
     </q-carousel-slide>
 
     <q-carousel-slide :name="6" img-src="foto/tiny/6.jpg" class="c-img">
       <div class="absolute-center custom-caption">
-        <div class="text-h2">{{ h1 }}</div>
-        <div class="text-h4 text-italic">{{ h2 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h2'">{{ h1 }}</div>
+        <div :class="$q.screen.lt.md ? 'text-h5' : 'text-h4'" style="font-style: italic">{{ h2 }}</div>
       </div>
     </q-carousel-slide>
 
