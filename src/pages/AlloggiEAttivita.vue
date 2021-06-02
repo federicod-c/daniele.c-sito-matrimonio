@@ -59,7 +59,7 @@
     <q-card class="col-md-6 col-xs-12 q-mb-lg">
       <q-card-section>
         <p>
-          Per chi gli inguaribili centristi, amanti dei compromessi e delle soluzioni a metà strada:
+          Per gli inguaribili centristi, amanti dei compromessi e delle soluzioni a metà strada:
         </p>
         <q-img src="foto/alloggi/miramare.png" :ratio="4/3">
           <div class="absolute-bottom text-subtitle2 text-center">
